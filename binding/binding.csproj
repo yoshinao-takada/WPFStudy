@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pict1.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pictures\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pict1.bmp" />
+  </ItemGroup>
+
+</Project>
